@@ -16,7 +16,7 @@ It does not sharpen blurred lines (such as those caused by depth of field), but 
 
 The goal of this model is to handle compression artifacts on lines during rescaling without excessively increasing line sharpness, so the model is overall tuned for low sharpness.
 
-
+***
 
 低锐度的动画2x超分辨率模型
 
