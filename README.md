@@ -11,9 +11,7 @@ The dataset distinguishes between line art and flat areas, and only denoising wa
 It does not sharpen blurred lines (such as those caused by depth of field), but if the overall linework is soft, it applies a mild sharpening effect.  
 The goal of this model is to handle compression artifacts on lines during rescaling without excessively increasing line sharpness, so the model is overall tuned for low sharpness.
 
-***
-
-低锐度的动画2x超分辨率模型  
+> 低锐度的动画2x超分辨率模型  
 用于处理画质不是非常差的源——清理压缩痕迹、一定强度的抗锯齿、保留景深、平面降噪  
 数据集来源：近年的表番BDMV、里番BDMV、近年的里番WEB-DL(1080p/720p)  
 数据集处理特定地分为了线条、平面部分，平面部分仅做了降噪处理，因而你可以通过遮罩选择应用线条部分  
