@@ -1,7 +1,5 @@
-# HentaiSR
+# HSR
 
-A model for upscaling hentais.
+Models trained by us.
 
-Please don't think I would care about issues :)
-
-V0: init.
+HSR_V1: a soft 2x super-resolution model for anime.
