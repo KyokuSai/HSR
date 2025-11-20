@@ -2,6 +2,22 @@
 
 Models trained by us.
 
+## HSR_V2
+
+A 2x super-resolution model for anime.  
+Compared to V1, the cleanup of compression artifacts has been optimized, **with a slight improvement in line sharpness**.  
+Dataset: Recent anime BDMVs \(primary\), hentai BDMVs / WEB-DLs.    
+Preserves details and depth of field, and upscales text with relatively high accuracy.  
+Not suitable for animes with very poor image quality or severe aliasing.  
+[Comparisons](https://slow.pics/s/xCgRtL4t)
+
+> 针对压缩瑕疵清理的动画2x超分辨率模型  
+在V1的基础上对压缩痕迹的清理进行了优化，**并略微提高了线条锐度**  
+数据集来源：近年的表番BDMV\(主要\)、里番的BDMV/WEB-DL  
+保留细节，保留景深，较为准确地放大文字  
+不适用于画质过差或者锯齿严重的动画  
+[对比图](https://slow.pics/s/xCgRtL4t)：**源图像**对比**缩小后用模型重新放大**，AniSD和AnimeJaNai是两个我觉得不错并且锐度比较接近的模型，请放大后对比！
+
 ## HSR_V1
 
 A soft 2x super-resolution model for anime.  
