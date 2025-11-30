@@ -18,6 +18,19 @@ Not suitable for animes with very poor image quality or severe aliasing.
 不适用于画质过差或者锯齿严重的动画  
 [对比图](https://slow.pics/s/xCgRtL4t)：**源图像**对比**缩小后用模型重新放大**，AniSD和AnimeJaNai是两个我觉得不错并且锐度比较接近的模型，请放大后对比！
 
+## HSR_V2_s
+The standard V2 version uses the RealPLKSR, while this V2_s version uses the RealPLKSR small size (the same as V1).  
+Its processing speed is much faster, at the cost of some fine details not being as good as V2 — in most cases their quality is similar, so please make a trade-off.  
+・Fast processing speed  
+・Slightly inferior quality compared to the standard V2 version, especially in dark-area details and complex scenes  
+・Provides necessary anti-aliasing, but cannot compensate if the original animation’s linework is poor
+
+> V2标准版本使用RealPLKSR架构，此V2_s版本使用RealPLKSR small架构(与V1相同)。  
+运算速度会快非常多，代价是一些细节没有V2的质量好——大部分场景下两者质量相近，请自行取舍。  
+・运算速度快  
+・质量略逊于V2标准版本，尤其暗部细节、复杂画面  
+・有必要的抗锯齿效果，但如果动画本身润线质量差则无能为力
+
 ## HSR_V1
 
 A soft 2x super-resolution model for anime.  
