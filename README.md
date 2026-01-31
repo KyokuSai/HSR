@@ -2,6 +2,25 @@
 
 Models trained by us.
 
+## HSR_V2.5
+
+Built upon V2 with some optimizations in dataset processing.  
+Dataset: same as V2.  
+Accuracy has been significantly improved, with stronger AA. But by design it can't handle very severe aliasing.
+Sharpness is relatively high.
+・Fast processing speed, slightly slower than V2_s  
+・Excellent at removing compression artifacts, with higher accuracy than V2  
+・With some fine-tuning, it performs well on both low-resolution and high-resolution material  
+・Depth of field preservation is not as good as V2 and it may introduce noise and ringing around edges (These issues will be addressed in V3)
+
+> 在V2的基础上做了诸多数据集处理上的优化  
+数据集来源：与V2相同  
+准确度有相当的提升，抗锯齿能力更强但设计上并不能处理比较严重的锯齿，**锐利度较高**  
+・运算速度快，比V2_s略慢  
+・对压缩痕迹的清理非常优秀，且比V2准确度高  
+・经过一些微调，对低分辨率素材、高分辨率素材均有不错的效果  
+・景深保留没有V2做得好，可能会在线条周围引入噪点、振铃！这些问题会在V3解决
+
 ## HSR_V2
 
 A 2x super-resolution model for anime.  
@@ -25,8 +44,8 @@ Its processing speed is much faster, at the cost of some fine details not being 
 ・Slightly inferior quality compared to the standard V2 version, especially in dark-area details and complex scenes  
 ・Provides necessary anti-aliasing, but cannot compensate if the original animation’s linework is poor
 
-> V2标准版本使用RealPLKSR架构，此V2_s版本使用RealPLKSR small架构(与V1相同)。  
-运算速度会快非常多，代价是一些细节没有V2的质量好——大部分场景下两者质量相近，请自行取舍。  
+> V2标准版本使用RealPLKSR架构，此V2_s版本使用RealPLKSR small架构(与V1相同)  
+运算速度会快非常多，代价是一些细节没有V2的质量好——大部分场景下两者质量相近，请自行取舍  
 ・运算速度快  
 ・质量略逊于V2标准版本，尤其暗部细节、复杂画面  
 ・有必要的抗锯齿效果，但如果动画本身润线质量差则无能为力
