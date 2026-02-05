@@ -2,7 +2,13 @@
 
 Models trained by us.
 
-## HSR_V2.5
+### HSR_DeH264_V1
+
+A 1x model to remove H264 compression.
+This is a model I trained to address artifacts that standard filters can't fix.
+If you want to use it, please evaluate the results yourself.
+
+### HSR_V2.5
 
 Built upon V2 with some optimizations in dataset processing.  
 Dataset: same as V2.  
@@ -21,7 +27,7 @@ Sharpness is relatively high.
 ・经过一些微调，对低分辨率素材、高分辨率素材均有不错的效果  
 ・景深保留没有V2做得好，可能会在线条周围引入噪点、振铃！这些问题会在V3解决
 
-## HSR_V2
+### HSR_V2
 
 A 2x super-resolution model for anime.  
 Compared to V1, the cleanup of compression artifacts has been optimized, **with a slight improvement in line sharpness**.  
@@ -37,7 +43,7 @@ Not suitable for animes with very poor image quality or severe aliasing.
 不适用于画质过差或者锯齿严重的动画  
 [对比图](https://slow.pics/s/xCgRtL4t)：**源图像**对比**缩小后用模型重新放大**，AniSD和AnimeJaNai是两个我觉得不错并且锐度比较接近的模型，请放大后对比！
 
-## HSR_V2_s
+### HSR_V2_s
 The standard V2 version uses the RealPLKSR, while this V2_s version uses the RealPLKSR small size (the same as V1).  
 Its processing speed is much faster, at the cost of some fine details not being as good as V2 — in most cases their quality is similar, so please make a trade-off.  
 ・Fast processing speed  
@@ -50,7 +56,7 @@ Its processing speed is much faster, at the cost of some fine details not being 
 ・质量略逊于V2标准版本，尤其暗部细节、复杂画面  
 ・有必要的抗锯齿效果，但如果动画本身润线质量差则无能为力
 
-## HSR_V1
+### HSR_V1
 
 A soft 2x super-resolution model for anime.  
 Designed for animes that aren't of particularly poor image-quality — cleans up compression, performs mild anti-aliasing, preserves depth of field, and denoises flat areas.  
