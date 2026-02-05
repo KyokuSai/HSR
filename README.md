@@ -4,8 +4,8 @@ Models trained by us.
 
 ### HSR_DeH264_V1
 
-A 1x model to remove H264 compression.
-This is a model I trained to address artifacts that standard filters can't fix.
+A 1x model to remove H264 compression.  
+This is a model I trained to address artifacts that standard filters can't fix.  
 If you want to use it, please evaluate the results yourself.
 
 ### HSR_V2.5
