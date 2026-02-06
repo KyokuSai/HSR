@@ -2,6 +2,12 @@
 
 Models trained by us.
 
+### HSR_Grayscale_V1
+
+A 2x super-resolution model for anime. This is a Grayscale model!  
+Its accuracy is better than V2.5, its sharpness is lower than V2.5, and its AA strength is lower.  
+If you want to use it, please evaluate the results yourself.
+
 ### HSR_DeH264_V1
 
 A 1x model to remove H264 compression.  
