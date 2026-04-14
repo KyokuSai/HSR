@@ -6,6 +6,8 @@ Models trained by us.
 
 #### HSR_V3_Grayscale
 ・Compact
+・RealPLKSR
+・HX
 
 
 ### HSR_Grayscale_V1
