@@ -4,11 +4,15 @@ Models trained by us.
 
 ### HSR_V3
 
+#### HSR_V3
+
 #### HSR_V3_Grayscale
 
 ・Compact  
 ・RealPLKSR  
 ・HX  
+
+#### HSR_V3_DeH264
 
 ### HSR_Grayscale_V1
 
