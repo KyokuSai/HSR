@@ -4,6 +4,9 @@ Models trained by us.
 
 ### HSR_V3
 
+#### HSR_V3_Grayscale
+・Compact
+
 
 ### HSR_Grayscale_V1
 
