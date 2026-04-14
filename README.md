@@ -2,6 +2,9 @@
 
 Models trained by us.
 
+### HSR_V3
+
+
 ### HSR_Grayscale_V1
 
 A 2x super-resolution model for anime. This is a Grayscale model!  
