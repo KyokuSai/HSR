@@ -13,10 +13,6 @@ WIP
 ・RealPLKSR  
 ・HX  
 
-<details>
-<summary>Legacy / 旧模型</summary>
-
-
 #### HSR_V3_Grayscale
 
 ・Compact  
@@ -28,6 +24,9 @@ WIP
 ・Compact  
 ・RealPLKSR  
 ・HX  
+
+<details>
+<summary>Legacy / 旧模型</summary>
 
 ### HSR_Grayscale_V1
 
