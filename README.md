@@ -4,11 +4,18 @@ Models trained by us.
 
 ### HSR_V3
 
+WIP
+未完成
+
 #### HSR_V3
 
 ・Compact  
 ・RealPLKSR  
 ・HX  
+
+<details>
+<summary>Legacy / 旧模型</summary>
+
 
 #### HSR_V3_Grayscale
 
@@ -97,3 +104,5 @@ The goal of this model is to handle compression artifacts on lines during rescal
 数据集处理特定地分为了线条、平面部分，平面部分仅做了降噪处理，因而你可以通过遮罩选择应用线条部分  
 不会锐化虚化的线条(例如景深)，但如果整体线条比较糊则会有低强度的锐化效果  
 因为目标是在rescale时能够处理线条上的压缩痕迹，并且不会过度调整线条锐度，所以该模型总体是偏低锐度的
+
+</details>
