@@ -7,23 +7,30 @@ Models trained by us.
 WIP  
 未完成
 
+Arch:
+
+・Compact
+
+> Fast. If you are not sure which one to use, you can try this one.  
+> Pros: Clean line rendering & stable results across materials of different resolutions, from 480p to 1080p.  
+> Cons: Limited by the capability of the architecture, it may erase very fine line details and may perform incorrect anti-aliasing.
+
+・RealPLKSR
+
+> WIP!
+
+・HX
+
+> WIP!
+
 #### HSR_V3
 
-・Compact  
-・RealPLKSR  
-・HX  
 
 #### HSR_V3_Grayscale
 
-・Compact  
-・RealPLKSR  
-・HX  
 
 #### HSR_V3_DeH264
 
-・Compact  
-・RealPLKSR  
-・HX  
 
 <details>
 <summary>Legacy / 旧模型</summary>
