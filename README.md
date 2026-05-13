@@ -112,3 +112,9 @@ Arch:
 > 因为目标是在rescale时能够处理线条上的压缩痕迹，并且不会过度调整线条锐度，所以该模型总体是偏低锐度的
 
 </details>
+
+
+群聊(Group): https://t.me/KyokuSai  
+频道(Channel): https://t.me/KyokuSaiYume  
+邮箱(Mail): kyokusaisub@gmail.com  
+联系(Contact): https://t.me/HanaCream
